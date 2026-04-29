@@ -1,0 +1,120 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "university_id": "202310001",
+      "name": "Ali Ahmed",
+      "major": "Computer Information Systems",
+      "email": "a.ahmed@student.just.edu.jo",
+      "group_id": 101,
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "university_id": "202310002",
+      "name": "Hamza Al-Omari",
+      "major": "Computer Information Systems",
+      "email": "h.alomari@student.just.edu.jo",
+      "group_id": 101,
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "university_id": "202310006",
+      "name": "Sara Qasim",
+      "major": "Computer Science",
+      "email": "s.qasim@student.just.edu.jo",
+      "group_id": 102,
+      "role": "student"
+    },
+    {
+      "id": 4,
+      "university_id": "202310008",
+      "name": "Nour Hassan",
+      "major": "Information Technology",
+      "email": "n.hassan@student.just.edu.jo",
+      "group_id": null,
+      "role": "student"
+    }
+  ],
+
+  "supervisors": [
+    {
+      "id": 1,
+      "name": "Dr. Deya Al-Zoubi",
+      "department": "AI & Machine Learning",
+      "email": "deya.alzoubi@just.edu.jo",
+      "max_capacity": 5,
+      "current_groups": 3,
+      "role": "doctor"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Sara Khalil",
+      "department": "Data Science & Analytics",
+      "email": "sara.khalil@just.edu.jo",
+      "max_capacity": 4,
+      "current_groups": 2,
+      "role": "doctor"
+    }
+  ],
+
+  "projects": [
+    {
+      "group_id": 101,
+      "group_name": "Team Alpha",
+      "project_title": "Smart Graduation Project Management System",
+      "description": "A centralized platform to streamline project registration and supervisor assignment.",
+      "supervisor_id": 1,
+      "status": "approved",
+      "progress_percentage": 68,
+      "current_phase": "System Design",
+      "registration_date": "2025-10-20"
+    },
+    {
+      "group_id": 102,
+      "group_name": "Team Epsilon",
+      "project_title": "Blockchain Voting System",
+      "description": "A secure, decentralized voting application for university student council elections.",
+      "supervisor_id": 1,
+      "status": "approved",
+      "progress_percentage": 42,
+      "current_phase": "Requirement Analysis",
+      "registration_date": "2025-11-05"
+    },
+    {
+      "group_id": 103,
+      "group_name": "Team Beta",
+      "project_title": "AI Health Monitor",
+      "description": "An application that uses machine learning to predict student stress levels.",
+      "supervisor_id": 2,
+      "status": "pending",
+      "progress_percentage": 0,
+      "current_phase": "Registration",
+      "registration_date": "2025-12-01"
+    }
+  ],
+
+  "meetings": [
+    {
+      "meeting_id": 501,
+      "group_id": 101,
+      "supervisor_id": 1,
+      "title": "Weekly Progress Check",
+      "date": "2025-12-08",
+      "time": "10:00 AM",
+      "link": "https://meet.google.com/abc-defg-hij",
+      "status": "scheduled"
+    },
+    {
+      "meeting_id": 502,
+      "group_id": 101,
+      "supervisor_id": 1,
+      "title": "Midpoint Review",
+      "date": "2025-12-15",
+      "time": "11:30 AM",
+      "link": "https://meet.google.com/xyz-uvwx-yz1",
+      "status": "scheduled"
+    }
+  ]
+}
